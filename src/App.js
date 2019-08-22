@@ -38,7 +38,7 @@ componentDidMount() {
         <div className='App'>
           <h1> Kitten Rolodex </h1>
          <SearchBox 
-          placeholder=' Search Robots ' 
+          placeholder=' Search Kittens ' 
           handleChange={this.handleChange} 
           />
          <CardList kittens={filteredKittens} />
